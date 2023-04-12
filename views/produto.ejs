@@ -1,15 +1,29 @@
-<%- include('commons/header'); -%>
-<section class="container">
-  <div class="row">
-    <div class="col text-end">
-      <img src='/img/<%= produto.img %>' class='image-produto'>
-    </div>
-    <div class="col">
-      <h1 class='produto-nome'><%= produto.nome %></h1>
-      <p class="lead"><%= produto.descricao %></p>
-      <h3 class='produto-valor'>R$ <%= produto.valor %></h3>
-      <a href='/produtos' class='btn btn-comprar'>Comprar</a>
-    </div>
-  </div>
-  </section>
-<%- include('commons/footer'); -%>
+<html>
+
+<head>
+  <%- include('commons/head'); -%>
+</head>
+
+<body>
+  <%- include('commons/header'); -%>
+    <section class="container">
+      <div class="row">
+        <div class="col-12 text-start">
+          <img src='/img/<%= produto.img %>' class='image-produto float-end p-3'>
+
+          <h1 class='produto-nome'>
+            <%= produto.nome %>
+          </h1>
+          <p class="lead">
+            <%= produto.descricao %>
+          </p>
+          <h3 class='produto-valor'>R$ <%= produto.valor %>
+          </h3>
+          <a href='/produtos' class='btn btn-comprar'>Comprar</a>
+        </div>
+      </div>
+    </section>
+    <%- include('commons/footer'); -%>
+</body>
+
+</html>
