@@ -1,6 +1,6 @@
 body {
   background-color: #161b22;
-  color: #FFF;
+  color: #fff;
   overflow-y: scroll;
 }
 
@@ -9,11 +9,15 @@ header {
 }
 
 .navbar-brand img {
-  height: 3.5rem;
+  height: 60px;
 }
 
 .image-card {
-  height: 10.125rem;
+  height: 162;
+}
+
+.produto {
+  max-width: 800px;
 }
 
 .produto-nome {
@@ -25,23 +29,23 @@ header {
 }
 
 .btn-comprar {
-  margin: .65rem 0;
+  margin: 0.65rem 0;
   padding: 8px 50px;
   font-size: 0.85rem;
   line-height: 1.125rem;
   font-weight: 700;
   color: rgb(255, 255, 255);
   background: rgb(255, 101, 0);
-  transition: .75s;
+  transition: 0.75s;
 }
 
 .btn-comprar:hover {
   background: rgb(255, 255, 255);
   color: rgb(255, 101, 0);
   outline: 1px solid rgb(255, 101, 0);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .image-produto {
-  height: 20.250rem;
+  height: 324px;
 }
