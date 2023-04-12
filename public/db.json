@@ -1,0 +1,25 @@
+{
+  "produtos": [
+  {
+    "id": 1,
+    "nome": "Samsung Galaxy JS",
+    "valor": 1250.49,
+    "img": "samsung.png",
+    "descricao": "O Samsung Galaxy J5 é um smartphone lançado em 2015 que oferece um display Super AMOLED de 5 polegadas e resolução de 720 x 1280 pixels. Com uma câmera traseira de 13 MP e uma câmera frontal de 5 MP, o dispositivo é ideal para quem adora tirar fotos. O aparelho conta com um processador quad-core e 2 GB de RAM, além de uma bateria de 2600 mAh. Com um design elegante e diversas opções de armazenamento, o Samsung Galaxy J5 é uma opção excelente para quem busca um dispositivo confiável e eficiente."
+  },
+  {
+    "id": 2,
+    "nome": "Xiaomi Poco F3",
+    "valor": 2499.99,
+    "img": "xiaomi.png",
+    "descricao": "O Xiaomi Poco F3 é um smartphone lançado em 2021 que oferece um display AMOLED de 6,67 polegadas e resolução de 1080 x 2400 pixels. Com um processador Qualcomm Snapdragon 870 5G e uma RAM de 6 ou 8 GB, o dispositivo oferece excelente desempenho. O Poco F3 possui uma câmera traseira tripla de 48 MP + 8 MP + 5 MP e uma câmera frontal de 20 MP, além de uma bateria de 4520 mAh com carregamento rápido de 33W. Com design elegante e diversas opções de armazenamento, o Xiaomi Poco F3 é uma ótima opção para quem busca um dispositivo de alto desempenho a um preço acessível."
+  },
+  {
+    "id": 3,
+    "nome": "Iphone XR",
+    "valor": 2.699,
+    "img": "iphone.png",
+    "descricao": "O iPhone XR é um smartphone da Apple lançado em 2018. Com um display LCD de 6,1 polegadas e resolução de 828 x 1792 pixels, o dispositivo oferece uma experiência visual impressionante. O aparelho conta com o processador A12 Bionic, que proporciona excelente desempenho, e uma câmera traseira de 12 MP capaz de capturar imagens de alta qualidade. Com uma bateria de longa duração, design elegante e diversas opções de armazenamento, o iPhone XR é uma excelente escolha para quem busca um dispositivo de alto desempenho e qualidade."
+  }
+  ]
+}

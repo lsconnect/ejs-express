@@ -1,0 +1,47 @@
+body {
+  background-color: #161b22;
+  color: #FFF;
+  overflow-y: scroll;
+}
+
+header {
+  background: linear-gradient(180deg, #102347 0%, #161b22 100%);
+}
+
+.navbar-brand img {
+  height: 3.5rem;
+}
+
+.image-card {
+  height: 10.125rem;
+}
+
+.produto-nome {
+  color: rgb(127, 110, 197);
+}
+
+.produto-valor {
+  color: rgb(255, 101, 0);
+}
+
+.btn-comprar {
+  margin: .65rem 0;
+  padding: 8px 50px;
+  font-size: 0.85rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 101, 0);
+  transition: .75s;
+}
+
+.btn-comprar:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 101, 0);
+  outline: 1px solid rgb(255, 101, 0);
+  transition: .5s;
+}
+
+.image-produto {
+  height: 20.250rem;
+}

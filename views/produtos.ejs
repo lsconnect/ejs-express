@@ -1,0 +1,26 @@
+<html>
+  <head>
+      <%- include('commons/head'); -%>
+  </head>
+<body>
+  <%- include('commons/header'); -%>
+  <section class="container">
+    <h2>Produtos</h2>
+      <p class="lead">
+      Nossa área de produtos é repleta de opções tecnológicas que vão desde smartphones básicos até os modelos mais avançados do mercado. Temos uma ampla variedade de acessórios, como capas, fones de ouvido e carregadores, para complementar o seu dispositivo. Visite-nos e encontre o dispositivo ideal para o seu estilo de vida.
+    </p>
+    <div class="text-center">
+      <div class="row">
+        <% for (p of produtos) { %>
+        <div class="col">
+          <img src='/img/<%= p.img %>' class='image-card mb-3'>
+          <h5 class='produto-nome'><%= p.nome %></h5>
+          <a href='/produtos/<%= p.id %>' class='btn btn-comprar'>Detalhes</a>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </section>
+  <%- include('commons/footer'); -%>
+</body>
+</html>
